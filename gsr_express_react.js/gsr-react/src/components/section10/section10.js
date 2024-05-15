@@ -9,7 +9,6 @@ import iconBgenginne from '../img/vector_icon/engine_time_icon.png'
 function CardItemPrice() {
     return (
         <div>
-            <div>
                 <div className="charGridTextZoom">
                     <img className="cardBgPrice" src={cardBg}/>
                     <div className="ZoomlionText">Zoomlion 24X 4Z</div>
@@ -20,7 +19,6 @@ function CardItemPrice() {
                     <div className="iconDataText"><img className="iconBgData" src={iconBgenginne} />Пробег: 1000 моточасов</div>
                     <button className="buttonPodr">Узнать подробнее</button>
                 </div>
-            </div>
         </div>
     )
 }

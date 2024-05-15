@@ -110,4 +110,9 @@
         grid-template-rows: 650px 650px 650px 650px;
         margin-left: 80px;
     }
+
+    .charGridTextZoom {
+        width: 300px;
+        position: absolute;
+    }
 }

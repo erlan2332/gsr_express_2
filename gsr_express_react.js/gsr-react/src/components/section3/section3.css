@@ -232,4 +232,8 @@
         position: relative;
         top: 60px;
     }
+
+    .key_text.kuma {
+        margin: 0;
+    } 
 }

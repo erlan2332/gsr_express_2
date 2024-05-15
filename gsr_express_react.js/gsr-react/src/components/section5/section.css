@@ -106,8 +106,8 @@
 
 @media (max-width: 600px) {
     .blackBg {
-        width: 440px;
-        height: 2200px;
+        width: 428px;
+        height: 1900px;
     }
 
     .grid_black_bg {
@@ -168,8 +168,6 @@
     }
 
     .grid_text_partners {
-        display: grid;
-        grid-template-rows: 10px 60px 60px;
-        row-gap: 40px;
+        display: none;
     }
 }

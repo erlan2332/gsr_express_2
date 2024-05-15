@@ -134,4 +134,13 @@
         width: 300px;
         margin-left: 80px;
     }
+
+    .percent {
+        width: 100px;
+        display: block;
+    }
+
+    .persent_char {
+        width: 280px;
+    }
 }

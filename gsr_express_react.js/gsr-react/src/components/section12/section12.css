@@ -68,6 +68,7 @@
 
 @media (max-width: 600px) {
     .rectangle12Card {
+        width: 400px;
         display: grid;
         grid-template-columns: none;
         grid-template-rows: 400px 400px;

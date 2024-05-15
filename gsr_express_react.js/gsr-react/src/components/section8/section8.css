@@ -18,9 +18,9 @@
 }
 
 .iconUpArrow {
+    text-align: left;
     margin-top: 140px;
     width: 60px;
-    margin-right: 420px;
 }
 
 .iconUpArrow2 {
@@ -84,6 +84,7 @@
     }
 
     .grid_horizont_info {
+        width: 300px;
         margin-top: -90px;
         margin-left: 30px;
         display: grid;
