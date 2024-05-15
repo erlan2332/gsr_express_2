@@ -1,0 +1,90 @@
+.EndComponentInfo {
+    margin-top: 60px;
+    width: 1425px;
+    height: 400px;
+    background-color: #292929;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.textGsrEnd {
+    color: white;
+    width: 300px;
+    text-align: left;
+    position: relative;
+    left: 50px;
+    top: 120px;
+}
+
+.textGsrEndPage {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.linkGridEnd {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.linkGridEndPage {
+    position: relative;
+    left: 500px;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 140px 100px 100px;
+    column-gap: 20px;
+}
+
+.linkAboutKuma {
+    text-decoration: none;
+    color: white;
+}
+
+.linkSocialMedia {
+    width: 40px;
+}
+
+.socMediaGridCol {
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px;
+    column-gap: 10px;
+    position: relative;
+    left: 950px;
+    top: -60px;
+}
+
+.button_call_rec {
+    width: 160px;
+    height: 40px;
+    border: solid 2px #EA6635;
+    border-radius: 7px;
+    background-color: #EA6635;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    left: 570px;
+    top: -100px;
+}
+
+.button_call_rec:hover {
+    background-color: #292929;
+}
+
+@media (max-width: 600px) {
+    .EndComponentInfo {
+        width: 100%;
+    }
+
+    .linkGridEndPage {
+        display: none;
+    }
+
+    .socMediaGridCol {
+        display: none;
+    }
+
+    .button_call_rec {
+        display: none;
+    }
+}

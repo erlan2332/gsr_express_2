@@ -1,0 +1,98 @@
+.navbar {
+    width: 100%;
+    height: 84px;
+    background-color: rgba(0, 0, 0, 0.32);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.logo {
+    width: 161px;
+}
+
+.link_decor {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.logo_navbar {
+    display: grid;
+    grid-template-columns: 181px 600px;
+    column-gap: 71px;
+    position: relative;
+    top: 5px;
+    left: 40px;
+}
+
+.navBarTxt {
+    display: grid;
+    grid-template-columns: 45px 136px 40px 110px 70px 140px 40px 120px;
+    column-gap: 40px;
+}
+
+.link_decor_btn {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.btn_nav {
+    width: 170px;
+    height: 40px;
+    border: solid 2px #EA6635;
+    border-radius: 10px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 6px;
+}
+
+.phone {
+    width: 30px;
+    margin-left: 20px;
+    margin-top: -3px;
+}
+
+.phone_number {
+    margin-left: -10px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.btn_nav:hover {
+    background-color: #EA6635;
+    transition: background-color 0.4s ease; 
+}
+
+.carousel.slide {
+    position: relative;
+    bottom: 100px;
+    z-index: -10;
+}
+
+@media (max-width: 600px) {
+    .navBarTxt {
+        display: none;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .carousel.slide .carousel-inner .carousel-item img {
+        height: 700px !important; /* Устанавливаем высоту изображений карусели на мобильных устройствах */
+        object-fit: cover;
+    }
+
+    .logo_navbar {
+        display: block;
+    }
+    
+
+}

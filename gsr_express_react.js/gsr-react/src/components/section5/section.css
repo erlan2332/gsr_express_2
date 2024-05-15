@@ -1,0 +1,175 @@
+.blackBg {
+    width: 1425px;
+    height: 2000px;
+    background-color: #292929;
+    border-radius: 26px;
+    margin-top: 80px;
+}
+
+.grid_black_bg {
+    display: grid;
+    grid-template-columns: 300px 100px;
+    column-gap: 900px;
+    margin-left: 60px;
+}
+
+.text_blackBg {
+    width: 300px;
+    text-align: left;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    margin-top: 60px;
+}
+
+.arrow_icon {
+    width: 100px;
+    margin-top: 90px;
+}
+
+.asiaBg {
+    width: 1000px;
+    margin-top: 250px;
+}
+
+.rec_black_bg {
+    width: 640px;
+    height: 246px;
+    border-radius: 20px;
+    background-color: #EEF7FC;
+}
+
+.text_heaeder_blackBg {
+    width: 400px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.text_blackBg_pod {
+    width: 300px;
+    text-align: left;
+    margin-left: 20px;
+    font-weight: bold;
+    color: #ACACAC;
+}
+
+.copy_dinamic {
+    width: 150px;
+    margin-left: 440px;
+    margin-top: -80px;
+}
+
+.card_dinamic {
+    width: 120px;
+    margin-left: 440px;
+    margin-top: -90px;
+}
+
+.calendar_dinamic {
+    width: 140px;
+    margin-left: 440px;
+    margin-top: -40px;
+}
+
+.blackBg_rect {
+    display: grid;
+    grid-template-columns: 640px 640px;
+    column-gap: 30px;
+    grid-template-rows: 246px 246px;
+    row-gap: 45px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.patnners {
+    width: 180px;
+    margin-left: 40px;
+}
+
+.partners_blackBg {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 80px;
+    width: 600px;
+}
+
+.grid_text_partners {
+    margin-right: 900px;
+    margin-top: 100px;
+}
+
+@media (max-width: 600px) {
+    .blackBg {
+        width: 440px;
+        height: 2200px;
+    }
+
+    .grid_black_bg {
+        display: block;
+    }
+
+    .asiaBg {
+        margin-top: 100px;
+        width: 370px;
+    }
+
+    .blackBg_rect {
+        display: grid;
+        grid-template-columns: none;
+        grid-template-rows: 290px 290px 290px 290px;
+        margin-left: 10px;
+    }
+
+    .rec_black_bg {
+        width: 95%;
+        height: 90%;
+    }
+
+    .card_dinamic.icontre {
+        width: 80px;
+        margin-left: 300px;
+        margin-top: -80px;
+    }
+
+    .text_heaeder_blackBg {
+        width: 300px;
+    }
+
+    .icontre {
+        width: 100px;
+        margin-top: -50px;
+        margin-left: 240px;
+    }
+
+    .calendar_dinamic.icontre {
+        margin-top: -15px;
+    }
+
+    .partners_blackBg {
+        margin: 0;
+        margin-top: -90px;
+        margin-left: 30px;
+        width: 380px;
+    }
+
+    .arrow_icon {
+        display: none;
+    }
+
+    .text_blackBg {
+        position: relative;
+        top: 40px;
+    }
+
+    .grid_text_partners {
+        display: grid;
+        grid-template-rows: 10px 60px 60px;
+        row-gap: 40px;
+    }
+}

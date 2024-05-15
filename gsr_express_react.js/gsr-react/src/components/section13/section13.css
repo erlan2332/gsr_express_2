@@ -1,0 +1,30 @@
+.OsoKAma {
+    width: 200px;
+}
+
+.ThankListOsoKAma {
+    margin-top: 60px;
+    margin-left: 170px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    column-gap: 90px;
+}
+
+.textKama {
+    font-weight: bold;
+    color: #ACACAC;
+}
+
+.ThankText {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 90px;
+    margin-left: 80px;
+}
+
+@media (max-width: 600px) {
+    .thankstreert {
+        display: none;
+    }
+}

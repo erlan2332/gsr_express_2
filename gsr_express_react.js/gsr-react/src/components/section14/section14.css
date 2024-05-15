@@ -1,0 +1,115 @@
+.BgScreenInput2 {
+    background-image: url('../img/screen_bg/21iht-gt-china21-1-superJumbo\ 1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    width: 95%;
+    border-radius: 20px;
+    margin-top: 90px;
+    margin-left: 37px;
+}
+
+.BgScreenInput3 {
+    position: relative;
+    top: 160px;
+    left: 700px;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+}
+
+.BgScreenInputText {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+    margin-top: 10px;
+    position: relative;
+    left: 30px;
+}
+
+.BgScreenInputTextPod {
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+
+.BgScreentextInput {
+    width: 350px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+    position: relative;
+    left: 75px;
+    top: 40px;
+}
+
+.BgScreentextInput2 {
+    width: 350px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.4);   
+    position: relative;
+    left: 75px;
+    top: 45px;
+}
+
+.BgScreentextInput3 {
+    width: 350px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #EA6635;
+    border: solid 2px #EA6635;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    left: 75px;
+    top: 50px;
+}
+
+.BgScreentextInput3:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #EA6635;
+}
+
+.BgScreenInput3 {
+    display: grid;
+    grid-template-rows: 80px 50px 70px 70px 70px;
+}
+
+@media (max-width: 600px) {
+    .BgScreenInput3 {
+        width: 350px;
+        position: relative;
+        top: 130px;
+        left: 30px;
+    }
+
+    .BgScreentextInput {
+        width: 300px;
+        position: relative;
+        left: 25px;
+    }
+
+    .BgScreentextInput2 {
+        width: 300px;
+        position: relative;
+        left: 25px;
+    }
+
+    .BgScreentextInput3 {
+        width: 300px;
+        position: relative;
+        left: 25px;
+    }
+
+    .BgScreenInput2 {
+        margin-left: 10px;
+    }
+}

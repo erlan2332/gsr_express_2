@@ -1,0 +1,89 @@
+.ScreenBg {
+    background-image: url('../img/screen_bg/21iht-gt-china21-1-superJumbo%201.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+.text_bgScreen {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    margin-left: 60px;
+    position: relative;
+    top: 40px;
+}
+
+.monic {
+    width: 60px;
+}
+
+.kube {
+    width: 70px;
+    position: relative;
+    top: -10px;
+}
+
+.text_char_bg_screen {
+    text-align: left;
+    width: 260px;
+    font-size: 24px;
+    color: white;
+}
+
+.text_char_bg_screen_pod {
+    text-align: left;
+    width: 260px;
+    color: #ACACAC;
+}
+
+.greed_bg_screen {
+    display: grid;
+    grid-template-rows: 60px 70px 80px;
+    row-gap: 10px;
+}
+
+.greed_horisont_bg {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    column-gap: 30px;
+    margin: 500px auto;
+    position: relative;
+    left: 100px;
+    overflow-x: hidden; 
+}
+
+body {
+    overflow-x: hidden;
+}
+
+@media (max-width: 600px) {
+    .greed_horisont_bg {
+        display: grid;
+        grid-template-columns: none;
+        grid-template-rows: 240px 240px 200px 240px;
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    .iconmonicicon {
+        width: 60px;
+    }
+
+    .text_bgScreen {
+        margin-left: 30px;
+        position: relative;
+        top: 0px;
+    }
+
+    .greed_bg_screen {
+        display: grid;
+        grid-template-rows: 60px 70px;
+        width: 100px;
+    }
+}

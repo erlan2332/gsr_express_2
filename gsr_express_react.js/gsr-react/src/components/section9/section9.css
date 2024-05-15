@@ -1,0 +1,35 @@
+.rect_partners {
+    margin: 250px auto;
+    width: 1200px;
+    height: 280px;
+    border: solid 1px #E6E6E6;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.partnersText {
+    font-size: 26px;
+    font-weight: bold;
+    width: 500px;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.logoPartnersInfo {
+    width: 170px;
+}
+
+.logoPartnersGrid {
+    display: grid;
+    grid-template-columns: 170px 170px 170px 170px 170px ;
+    column-gap: 50px;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+@media (max-width: 600px) {
+    .rect_partners {
+        display: none;
+    }
+}
